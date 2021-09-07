@@ -1,0 +1,29 @@
+{
+  "name": "jzz-webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "start": "NODE_ENV=development webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuzemec/jzz-webpack-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuzemec/jzz-webpack-test/issues"
+  },
+  "homepage": "https://github.com/tuzemec/jzz-webpack-test#readme",
+  "dependencies": {
+    "jzz": "^1.4.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  }
+}
